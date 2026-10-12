@@ -14,7 +14,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  static const String _predictUrl = 'http://localhost:5000/predict';
+  static const String _predictUrl = 'https://disease-in-bamboo-production.up.railway.app';
 
   final List<_PredictionRecord> _history = <_PredictionRecord>[];
 
